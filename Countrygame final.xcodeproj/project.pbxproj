@@ -12,12 +12,12 @@
 		CE90A4962A0BE4CA009F62A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE90A4952A0BE4CA009F62A7 /* Assets.xcassets */; };
 		CE90A4992A0BE4CA009F62A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE90A4982A0BE4CA009F62A7 /* Preview Assets.xcassets */; };
 		CE90A4A32A0BE5FA009F62A7 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE90A4A22A0BE5FA009F62A7 /* QuestionView.swift */; };
-		CE90A4A52A0BE60A009F62A7 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE90A4A42A0BE60A009F62A7 /* Question.swift */; };
 		CE90A4A72A0BE612009F62A7 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE90A4A62A0BE612009F62A7 /* Data.swift */; };
 		CE90A4A92A0BE61E009F62A7 /* QuizManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE90A4A82A0BE61E009F62A7 /* QuizManager.swift */; };
 		CE90A4AB2A0BE6D6009F62A7 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE90A4AA2A0BE6D6009F62A7 /* CustomButton.swift */; };
 		CE90A4AD2A0BE6E5009F62A7 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE90A4AC2A0BE6E5009F62A7 /* ProgressBar.swift */; };
 		CE90A4AF2A0BE6F1009F62A7 /* AnswerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE90A4AE2A0BE6F1009F62A7 /* AnswerRow.swift */; };
+		CE90A4B12A0D5923009F62A7 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE90A4B02A0D5923009F62A7 /* Question.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,12 +27,12 @@
 		CE90A4952A0BE4CA009F62A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE90A4982A0BE4CA009F62A7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CE90A4A22A0BE5FA009F62A7 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
-		CE90A4A42A0BE60A009F62A7 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		CE90A4A62A0BE612009F62A7 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		CE90A4A82A0BE61E009F62A7 /* QuizManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizManager.swift; sourceTree = "<group>"; };
 		CE90A4AA2A0BE6D6009F62A7 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		CE90A4AC2A0BE6E5009F62A7 /* ProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
 		CE90A4AE2A0BE6F1009F62A7 /* AnswerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerRow.swift; sourceTree = "<group>"; };
+		CE90A4B02A0D5923009F62A7 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +86,7 @@
 		CE90A49F2A0BE5BE009F62A7 /* models */ = {
 			isa = PBXGroup;
 			children = (
-				CE90A4A42A0BE60A009F62A7 /* Question.swift */,
+				CE90A4B02A0D5923009F62A7 /* Question.swift */,
 				CE90A4A62A0BE612009F62A7 /* Data.swift */,
 				CE90A4A82A0BE61E009F62A7 /* QuizManager.swift */,
 			);
@@ -185,7 +185,7 @@
 				CE90A4942A0BE4C6009F62A7 /* ContentView.swift in Sources */,
 				CE90A4AF2A0BE6F1009F62A7 /* AnswerRow.swift in Sources */,
 				CE90A4A72A0BE612009F62A7 /* Data.swift in Sources */,
-				CE90A4A52A0BE60A009F62A7 /* Question.swift in Sources */,
+				CE90A4B12A0D5923009F62A7 /* Question.swift in Sources */,
 				CE90A4A32A0BE5FA009F62A7 /* QuestionView.swift in Sources */,
 				CE90A4AB2A0BE6D6009F62A7 /* CustomButton.swift in Sources */,
 				CE90A4A92A0BE61E009F62A7 /* QuizManager.swift in Sources */,
